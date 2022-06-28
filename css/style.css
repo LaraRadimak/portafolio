@@ -1,0 +1,642 @@
+header{
+    background: grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+}
+body{
+    margin-top: 50px;
+    background: lightgray;
+    width: 100%;
+
+}
+.caja  {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: white;
+    text-decoration: none;
+    font-family:'Montserrat', sans-serif;
+    
+    
+}
+.navegacion{
+    display: flex;
+    align-items: flex-start;
+    
+    color: white;
+    text-decoration: none;
+    justify-content: flex-start;
+    
+}
+.nombre-prin{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.li-nav{
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;  
+    font-family:'Montserrat', sans-serif;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}   
+.li-nav:hover{
+    color: crimson;
+}
+@media screen and (max-width: 768px){
+
+    .li-nav{
+        display: none;
+    }
+
+    .navegacion{
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .li-nav{
+        display: none;
+    }
+
+    .navegacion{
+
+        font-size: 17px;
+    }
+}
+.informacion{
+    padding: 40px 0 35px 0;
+}
+
+.contenido-informacion{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto-informacion{
+    width: 54%;
+}
+
+.informacion-titulo{
+    font-size: 42px;
+    color: #464646;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.informacion-parrafo{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 20px 0;
+    color: #464646;
+    text-align: justify;
+}
+
+.enlaces-informacion{
+    width: 100%;
+    display: flex;
+}
+
+.enlaces-informacion a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 19px;;
+    color: #464646;
+}
+
+.enlaces-informacion i{
+    font-size: 20px;
+    color: #464646;
+    margin-right: 2rem;
+}
+
+.contenido-informacion img{
+    width: 240px;
+    height: 240px;
+    border-radius: 200px;
+    background: rgb(45, 139, 228);
+}
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .contenido-informacion{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    
+    .texto-informacion{
+        width: 100%;
+    }
+
+    .informacion-titulo{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .informacion-parrafo{
+        font-size: 14px;
+        line-height: 16px;
+        margin: 15px 0;
+    }
+
+    .enlaces-informacion{
+        justify-content: space-between;
+    }
+
+    .enlaces-informacion a{
+        font-size: 14px;
+    }
+
+    .enlaces-informacion i{
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .contenido-informacion img{
+        width: 45%;
+        height: 45%;
+        margin-bottom: 1.5rem;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .informacion-titulo{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .texto-informacion{
+        width: 65%;
+    }
+
+    .informacion-parrafo{
+        font-size: 1rem;
+        line-height: 19px;
+    }
+
+    .enlaces-informacion{
+        justify-content: space-between;
+    }
+
+    .contenido-informacion img{
+        width: 30%;
+        height: 30%;
+    }
+
+    .enlaces-informacion a{
+        font-size: 16px;
+    }
+
+    .enlaces-informacion i{ 
+        margin: 0;
+    }
+    
+}
+.titulo-sobre-mi{
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight:bold;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 20px;
+    align-content: flex-start;
+    top: 400px;
+    left: 500px;
+}
+.sobre-mi-dos{
+    background: grey;
+    display: flex;
+    justify-content: flex-start;
+    color: aliceblue;
+    font-size: 18px;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.titulo-sobre-mi{
+    
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.titulo-skills{
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    
+
+}
+.skills{
+    display: flex;
+    justify-content: space-around;
+  
+
+}
+.img-p-skill{
+    display: flex;
+    margin: 20px;
+    background: white;
+    padding: 40px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50px;
+    height: 90px;
+    flex-direction: column;
+    
+}
+.img-p-skill:hover{
+    color: rgb(82, 81, 81);
+    
+}
+.palabra-skill{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.img-skill{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.titulo-hobbie{
+    margin-top: 40px;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.hobbie{
+    display: flex;
+    justify-content: space-around;
+}
+.img-p-hobbie{
+    display: flex;
+    margin: 20px;
+    background: white;
+    padding: 40px;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 50px;
+    height: 90px;
+    flex-direction: column;
+}
+.img-p-hobbie:hover{
+    color: grey;
+}
+.img-hobie{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.palabra-hobbie{
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.titulo-formacion-academica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   margin: 30px;
+
+}
+.img-formacion{
+    width: 200px;
+    height: 200px;
+    border : black;
+    display: flex;
+}
+.formacion-academica{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img-p-formacion{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: white;
+    padding: 5px;
+    margin: 15px;
+    flex-direction: column;
+    width: 200px;
+    height: 300px;
+}
+.palabra-formacion{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.palabra__formacion2{
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.titulo-experiencia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+   margin: 40px;
+
+}
+.encriptador{
+    display: flex;
+    justify-content: space-around;
+}
+.titulo-encriptador{
+    margin-bottom: 20px;
+    display: flex;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.texto-encriptador{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+
+}
+.img-encritador{
+    width: 900px;
+    height: 500px;
+}
+.caja-botones{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.btn-repositorio {
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    -webkit-text-stroke: 2px;
+    border: 2px solid #1E679A;
+    width: 300px;
+}
+.btn-demo{
+    text-decoration: none;
+    color: black;
+    -webkit-text-stroke: 2px;
+    border: 2px solid #1E679A;
+    width: 300px;
+    border-radius: 10px;
+}
+.btn-repositorio:hover{
+    text-decoration: initial;
+    color: white;
+}
+.btn-demo:hover{
+    text-decoration: initial;
+    color: white;
+}
+.ahorcado{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-ahorcado{
+    display: flex;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+}
+.img-ahorcado{
+    width: 900px;
+    height: 500px;
+}
+/*movil*/
+@media screen and (max-width: 768px){
+    .titulo-experiencia{ 
+        font-size: 20px;
+        margin: 20px;   
+    }
+    
+    .titulo-encriptador{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .img-encritador{
+         width: 600px;
+        height: 400px;
+    }
+    .img-ahorcado{
+         width: 600px;
+        height: 400px;
+    }
+}
+/*tablet*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .titulo-experiencia{ 
+        font-size: 20px;
+        margin: 20px;   
+    }
+    
+    .titulo-encriptador{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .img-encritador{
+        width: 700px;
+        height: 500px;
+    }
+    .img-ahorcado{
+         width: 700px;
+        height: 500px;
+    }
+}
+
+/*contacto*/
+
+.contacto{
+    padding: 35px 0;
+}
+
+.caja-contacto{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacto-imagen{
+    display: block;
+    width: 46%;
+    height: 500px;
+}
+
+.contacto-texto{
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-contacto{
+    font-weight: 700;
+    font-size: 32px;
+    color: #464646;
+}
+
+.parrafo-contacto{
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+    line-height: 20px;
+    text-align: justify;
+    margin: 12px 0;
+}
+
+.contacto-input{
+    border: none;
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+    background: #FFFFFF;
+    padding: 0 10px;
+    border-bottom: 2px solid #EDEDED;
+}
+
+.contacto-input:focus, .contacto-textarea:focus{
+    border-bottom: 2px solid #2A7AE4;
+    outline: none;
+}
+
+.contacto-input::placeholder, .contacto-textarea::placeholder{
+    color:#2A7AE4;
+}
+
+.contacto-textarea{
+    border: none;
+    width: 100%;
+    margin: 10px 0;
+    height: 96px;
+    background: #FFFFFF;
+    padding: 5px 10px;
+    resize: none;
+}
+
+.contacto-btn{
+    display: flex;
+    border: none;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    padding: 12px 16px;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    margin: 5px 0 0 0;
+    cursor: pointer;
+}
+
+
+/*Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .contacto-imagen{
+        display: none;
+    }
+
+    .titulo-contacto{
+        font-size: 22px;
+    }
+
+    .contacto-texto{
+        width: 100%;
+    }
+
+    .contacto-btn{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .contacto-imagen{
+        display: none;
+    }
+
+    .contacto-texto{
+        width: 100%;
+    }
+
+    .titulo-contacto{
+        font-size: 22px;
+    }
+
+    .contacto-btn{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px;
+    }
+  
+}
+.footer{
+    padding: 20px 0;
+}
+
+.footer p{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #464646;
+}
+
+/* Mobile*/
+
+@media screen and (max-width: 768px){
+
+    .footer p{
+        font-size: 14px;
+    }
+}
